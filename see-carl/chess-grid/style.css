@@ -1,0 +1,98 @@
+.chessboard {
+
+  border: 10px solid black;
+  height: 80vmin;
+  width: 80vmin;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(8, 10vmin);
+  grid-template-rows: repeat(8, 10vmin);
+}
+.black {
+  background-color: brown;
+  font-size: 7.5vmin;
+  justify-content: center;
+  text-align: center;
+}
+.white {
+  background-color: white;
+  font-size: 7.5vmin;
+  justify-content: center;
+  text-align: center;
+}
+body {
+  background-color: rgb(29, 29, 29);
+}
+.chessboard:hover .wpawn1{
+  animation: move1 1s linear forwards 1;
+}
+.chessboard:hover .bpawn1{
+  animation: move2 5s linear forwards 1;
+}
+
+@keyframes move1 {
+  0%{
+      transform:translateX(0)
+  }
+  100% {
+      transform: translateY(-200%);
+  }         
+}
+@keyframes move2 {
+  0%{
+      transform:translateX(0)
+  }
+  100% {
+      transform: translateY(180%);
+  }         
+}
+
+                border: 10px solid black;
+                height: 80vmin;
+                width: 80vmin;
+                margin: 0 auto;
+                display: grid;
+                grid-gap: 0;
+                grid-template-columns: repeat(8, 10vmin);
+                grid-template-rows: repeat(8, 10vmin);
+            }
+            .black {
+                background-color: brown;
+                font-size: 7.5vmin;
+                justify-content: center;
+                text-align: center;
+            }
+            .white {
+                background-color: white;
+                font-size: 7.5vmin;
+                justify-content: center;
+                text-align: center;
+            }
+            body {
+                background-color: rgb(29, 29, 29);
+            }
+            .chessboard:hover .wpawn1{
+                animation: move1 1s linear forwards 1;
+            }
+            .chessboard:hover .bpawn1{
+                animation: move2 5s linear forwards 1;
+            }
+            
+            @keyframes move1 {
+                0%{
+                    transform:translateX(0)
+                }
+                100% {
+                    transform: translateY(-200%);
+                }         
+            }
+            @keyframes move2 {
+                0%{
+                    transform:translateX(0)
+                }
+                100% {
+                    transform: translateY(180%);
+                }         
+            }
+

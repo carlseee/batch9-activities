@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOMENTUM APP</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main-container" class="none">
+        <div class="top-row"></div>
+
+        <div class="center-above"></div>
+
+<!--CLOCK-->
+        <div class="clock">
+                <span class="clock-time"></span>
+                <span class="clock-ampm"></span>
+        </div>
+
+<!--GREETING-->
+        <div class="greeting-container">
+            <span class="greeting">Good Day, 
+            <input type = "text" placeholder="Name" id="greetingname">
+            </span>
+        </div>
+        
+        
+<!--FOCUS-->
+<div class="center-below">
+    <div id="focus-container" class="focus-container">
+        <p id="focus-question">What is your main focus for today?</p>
+        <input id="focus-input">
+    </div>
+    
+</div>
+
+<!--TODOLIST-->
+<div class = "text-containers">
+    <div class = "above-below">
+        <h1>To Do List:</h1>
+        <form id="todoForm">
+        <input id="todoInput">
+        <button type="button" id="button-newToDo" onclick="todoList()">ADD</button>
+        </form>
+        <ol id="todoList">
+        </ol>
+    </div>
+
+
+<!--QUOTES-->
+<div class = "below">
+    <h1>Quotes:</h1>
+    <div class = "newQuote">
+        <form id = "quoteForm">
+            <input id= "quoteInput">
+            <button type="button" id= "button-NewQuote">ADD</button>
+        </form>
+    </div>
+<p id = "QuotesList1"></p>
+    <form id="quotesForm">
+    <button type="button" id= "button-quote">QUOTE OF THE DAY</button>
+    </form>
+    <ol id="quotesList">
+    </ol>
+</div>
+</div>
+</div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>

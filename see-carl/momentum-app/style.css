@@ -1,0 +1,244 @@
+html {
+    background-image: url(LAAAST.jpeg);
+    font-family: 'PT Serif', serif;
+    width: auto;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clock{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+    
+    
+}
+
+.clock-time {
+    
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.clock-time,
+.clock-ampm {
+  font-family: 'PT Serif', serif;
+  font-size: 80px;
+  color: black;
+  font-weight: bold;
+}
+
+
+.name {
+  background: 0;
+  border: 0;
+  color: black;
+  outline-style: none;
+}
+
+.greeting-container {
+  padding-top: 30px;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5rem;
+  max-height: 10px;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+}
+
+.greeting {
+  font-size: 2.5rem;
+}
+
+#greetingname {
+  border: none;
+  background: none;
+  width: 180px;
+  font-size: 2.5rem;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+}
+
+.center-below {
+    height: 26%;
+    font-size: 2rem;
+    padding-top: 3.5%;
+    
+}
+
+.focus-container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#focus-question {
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-family: 'PT Serif', serif;
+}
+    
+#focus-input {
+  display: block;
+  background: 0;
+  border: 0;
+  border-bottom: 2px solid black;
+  color: black;
+  font-size: 1.75rem;
+  text-align: center;
+  outline-style: none;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.text-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 65px;
+}
+
+.above-below {
+  width: 15%;
+ 
+  box-shadow: 2px 2px 5px#000;
+  width: 20%;
+  min-width: 400px;
+  border-radius: 5px;
+}
+.below {
+  width: 15%;
+}
+
+#todoInput {
+  outline: none;
+  width: 75%;
+  padding-left: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+}
+
+#todoForm {
+  text-align: center;
+  font-weight: bold;
+}
+
+#todoList {
+  font-weight: bold;
+  font-family: 'PT Serif', serif;
+}
+
+#button-newToDo {
+  background-color:rgb(248, 249, 250);
+  box-shadow: 2px 2px 5px#000;
+  width: 10%;
+  min-width: 100px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#button-NewQuote {
+  background-color: white;
+  box-shadow: 2px 2px 5px#000;
+  width: 10%;
+  min-width: 100px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  
+
+}
+
+#button-quote {
+  background-color: white;
+  box-shadow: 2px 2px 5px#000;
+  width: 10%;
+  min-width: 200px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  
+}
+
+#quoteForm{
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+}
+
+.below {
+  
+  box-shadow: 2px 2px 5px#000;
+  width: 20%;
+  min-width: 400px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#quoteInput {
+  outline: none;
+  width: 75%;
+  padding-left: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+}
+
+#quotesList1 {
+  font-family: 'PT Serif', serif;
+  font-size: 200px;
+  font-weight: bold;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+      font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  html {
+      font-size: 14px;
+  }
+
+  #question-container {
+      width: 62vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+      font-size: 12px;
+  }
+
+  #question-container {
+      width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+      font-size: 10px;
+  }
+}
+

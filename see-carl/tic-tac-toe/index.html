@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">TIC-TAC-TOE</h1>
+    </div>
+    <div class="body">
+        <div id="focus-container" class="focus-container">
+            <p id="focus-question">Player X: </p>
+            <input id="focus-input">
+        </div>
+        <div id="focus-container" class="focus-container">
+            <p id="focus-question">Player O: </p>
+            <input id="focus-input">
+        </div>
+        
+    </div>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div>
+        <button id="previousButton">Previous</button>
+        <button id="restartButton">Restart</button>
+        <button id="afterButton">Next</button>
+        </div>
+</body>
+</html>

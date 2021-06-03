@@ -1,0 +1,159 @@
+<html>
+    <head>
+    <meta charset="UTF-8"> 
+        <title>CHESS GRID</title>
+        <style>
+            .chessboard {
+                border: 10px solid black;
+                height: 80vmin;
+                width: 80vmin;
+                margin: 0 auto;
+                display: grid;
+                grid-gap: 0;
+                grid-template-columns: repeat(8, 10vmin);
+                grid-template-rows: repeat(8, 10vmin);
+            }
+            .black {
+                background-color: brown;
+                font-size: 7.5vmin;
+                justify-content: center;
+                text-align: center;
+            }
+            .white {
+                background-color: white;
+                font-size: 7.5vmin;
+                justify-content: center;
+                text-align: center;
+            }
+            body {
+                background-color: rgb(29, 29, 29);
+            }
+            .chessboard:hover .wpawn1{
+                animation: move1 1s linear  1;
+            }
+            .chessboard:hover .bpawn1{
+                animation: move2 5s linear  1;
+                
+            }
+            
+            @keyframes move1 {
+                0%{
+                    transform:translateX(0)
+                }
+                100% {
+                    transform: translateY(-200%);
+                }         
+            }
+            @keyframes move2 {
+                0%{
+                    transform:translateX(0)
+                }
+                100% {
+                    transform: translateY(180%);
+                }         
+            }
+
+        </style>
+    
+    </head>
+
+<body>
+
+
+<div class="chessboard">
+<!-- 1st -->
+<div class="white">&#9820;</div>
+<div class="black">&#9822;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9819;</div>
+<div class="white">&#9818;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9822;</div>
+<div class="black">&#9820;</div>
+
+<!-- 2nd -->
+
+<div class="black">&#9823;</div>
+<div class="white">&#9823;</div>
+<div class="black">&#9823;</div>
+<div class="white">&#9823;</div>
+<div class="black">&#9823;</div>
+<div class="white">&#9823;</div>
+<div class="black">&#9823;</div>
+<div class="white"><div class="bpawn1">&#9823;</div></div>
+
+
+<!-- 3th -->
+
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+
+
+<!-- 4th -->
+
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+
+
+<!-- 5th -->
+
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+
+
+<!-- 6th -->
+
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+
+
+<!-- 7th -->
+
+<div class="white"><div class="wpawn1">&#9817;</div></div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black"><div class="wpawn2">&#9817;</div></div>
+
+
+<!-- 8th -->
+
+<div class="black">&#9814;</div>
+<div class="white">&#9816;</div>
+<div class="black">&#9815;</div>
+<div class="white">&#9813;</div>
+<div class="black">&#9812;</div>
+<div class="white">&#9815;</div>
+<div class="black">&#9816;</div>
+<div class="white">&#9814;</div>
+
+
+</body>
+</html>

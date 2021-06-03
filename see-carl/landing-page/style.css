@@ -1,0 +1,231 @@
+
+            
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    
+}
+
+#header-img {
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#home {
+    background-color: white;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+#sample-img {
+    width: 100%;
+    margin: auto;
+    margin-top: -30px;
+   
+    color: black;
+}
+
+#aboutus {
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    max-width: auto;
+}
+
+#facts { 
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    color: black;
+    max-width: auto;
+}
+
+#time {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    max-width: auto;
+}
+
+#relxx { 
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    max-width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+#contactus {
+    background-color:rgb(31, 31, 31);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    max-width: auto;
+    align-items:center ;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+#followme {
+    background-color:rgb(31, 31, 31);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    max-width: auto;
+    align-items:center ;
+    justify-content: center;
+    padding-bottom: 10px;
+
+}
+
+#link {
+    background-color:rgb(31, 31, 31);
+    display: flex;
+    flex-direction: column-reverse;
+    color: white;
+    max-width: auto;
+    align-items:center ;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+
+.video {
+    background-color: white;   
+    position: relative;
+    width: 112vw;
+    padding-top: 26.25%;
+}
+
+#shop {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 50px;   
+    align-items: baseline;
+    cursor: pointer;
+}
+.nav-bar {
+    list-style: none;
+    padding-top: 30px;
+    color: black;
+    
+}
+.nav-bar li {
+    display: inline-block;
+    padding: 0px 36px;
+}
+button {
+    padding: 9px 25px;
+    color: #55433b;
+    background-color: rgba(255, 246, 237, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+   
+}
+button:hover {
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: transform .2s;
+}
+a:hover{
+    transform: scale (1.5);
+}
+h2 {
+    margin: auto;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font: bold;
+   text-align: center;
+   font-size: 2.5vw;
+   margin-top: 7vw;
+   
+
+}
+h4 {
+   margin: auto;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: center;
+   justify-content: center;
+   font-size: 1.5vw;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top:7px;  
+}
+.form {
+   background-color: rgb(31, 31, 31);
+   display: flex;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.relx1 {
+    height: 25vw;
+    width: 16.6vw; 
+}
+
+.facts3 {
+    height:28vw;
+    width: 48.9vw;
+}
+.relxx1 {
+    height:28vw;
+    width: 58.2vw;
+}
+.time2 {
+    height:28vw;
+    width: 51vw;
+}
+#email {
+    border: 5px solid black;
+}
+
+@media (max-width: 650px) {
+    #aboutus {
+        flex-direction: column; 
+    }
+    .video {
+        width: 80vw;
+        margin: 0 auto; 
+    }
+    
+ }
